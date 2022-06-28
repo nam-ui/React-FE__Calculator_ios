@@ -1,0 +1,7 @@
+{
+  "name": "drag-and-drop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
