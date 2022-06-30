@@ -1,4 +1,4 @@
-import { IonCard, IonCardContent, IonCardHeader, IonInput } from "@ionic/react";
+import { IonCard, IonCardContent, IonCardHeader } from "@ionic/react";
 import React, { useState } from "react";
 import HeadCalculator from "./core/HeadCalculator";
 import "./ExploreContainer.css";
