@@ -58,11 +58,11 @@
 }
 
 .child-grid-calculator:nth-child(4n) {
-  background-color: orange
+  background-color: orange;
 }
 
 .child-grid-calculator:nth-child(19) {
-  background-color: orange
+  background-color: orange;
 }
 
 .child-grid-calculator:hover {

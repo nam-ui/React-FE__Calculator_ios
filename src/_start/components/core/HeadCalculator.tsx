@@ -1,5 +1,5 @@
 import { IonCol, IonGrid, IonRow } from "@ionic/react";
-import React from "react";
+import React, { MouseEvent, useState } from "react";
 import "../core/HeadCalculator.css";
 
 interface ContainerProps {}
@@ -7,7 +7,7 @@ interface ContainerProps {}
 const HeadCalculator: React.FC<ContainerProps> = () => {
   return (
     <React.Fragment>
-      <div id="drag-head">
+      <div>
         <IonGrid>
           <IonRow className="ion-align-items-start ion-no-padding">
             <IonCol size="4" size-sm>
