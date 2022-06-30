@@ -1,0 +1,105 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+#calculator {
+  position: relative;
+}
+
+.grid-calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.child-grid-calculator,
+.child-grid-calculator>button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.child-grid-calculator>button {
+  padding: 10px;
+  border: 1px solid rgb(156, 156, 156);
+  text-align: center;
+}
+
+.child-grid-calculator:nth-child(17) {
+  grid-column: span 2;
+}
+
+.child-grid-calculator>button:nth-child(n) {
+  background-color: transparent;
+}
+
+.child-grid-calculator {
+  background-color: rgb(212, 212, 212);
+}
+
+.child-grid-calculator:nth-child(4n) {
+  background-color: orange
+}
+
+.child-grid-calculator:nth-child(19) {
+  background-color: orange
+}
+
+.child-grid-calculator:hover {
+  background-color: rgba(212, 212, 212, 0.7);
+}
+
+.child-grid-calculator:nth-child(4n):hover {
+  background-color: rgba(255, 166, 0, 0.7)
+}
+
+.child-grid-calculator:nth-child(19):hover {
+  background-color: rgba(255, 166, 0, 0.7)
+}
+
+.child-grid-calculator:active {
+  background-color: rgba(212, 212, 212, 0.4);
+}
+
+.child-grid-calculator:nth-child(4n):active {
+  background-color: rgba(255, 166, 0, 0.4)
+}
+
+.child-grid-calculator:nth-child(19):active {
+  background-color: rgba(255, 166, 0, 0.4)
+}
+
+
+#result {
+  font-size: 38px;
+  color: white;
+  text-align: right;
+}
+
+#input-result {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: right;
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+#closer-tool-bar {
+    background-color: red;
+}
+
+#closer-tool-bar:hover::after {
+    content: "\00d7";
+    font-size: 1.75em;
+}
+
+
+#hidden-tool-bar {
+    background-color: green;
+}
+
+#hidden-tool-bar:hover::after {
+    content: "-";
+    font-size: 1.75em;
+}
+
+#zoom-tool-bar:hover::after {
+    content: "+";
+    font-size: 1.75em;
+}
+
+#zoom-tool-bar {
+    background-color: yellow;
+}
+
+.btn-tool-bar {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.ion-size-sm {
+    max-width: 276px;
+}
